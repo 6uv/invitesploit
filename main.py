@@ -9,28 +9,48 @@ import threading
 
 init(convert=True)
 
-intro = """
-                    Made by REZIZT. I already know your skidding this just admit it
-                            Discord : https://discord.gg/XgpXMWk2bG
-         ██▓ ███▄    █ ██▒   █▓ ██▓▄▄▄█████▓▓█████   ██████  ██▓███   ██▓     ▒█████   ██▓▄▄▄█████▓
-        ▓██▒ ██ ▀█   █▓██░   █▒▓██▒▓  ██▒ ▓▒▓█   ▀ ▒██    ▒ ▓██░  ██▒▓██▒    ▒██▒  ██▒▓██▒▓  ██▒ ▓▒
-        ▒██▒▓██  ▀█ ██▒▓██  █▒░▒██▒▒ ▓██░ ▒░▒███   ░ ▓██▄   ▓██░ ██▓▒▒██░    ▒██░  ██▒▒██▒▒ ▓██░ ▒░
-        ░██░▓██▒  ▐▌██▒ ▒██ █░░░██░░ ▓██▓ ░ ▒▓█  ▄   ▒   ██▒▒██▄█▓▒ ▒▒██░    ▒██   ██░░██░░ ▓██▓ ░ 
-        ░██░▒██░   ▓██░  ▒▀█░  ░██░  ▒██▒ ░ ░▒████▒▒██████▒▒▒██▒ ░  ░░██████▒░ ████▓▒░░██░  ▒██▒ ░ 
-        ░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░▓    ▒ ░░   ░░ ▒░ ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░ ▒░▓  ░░ ▒░▒░▒░ ░▓    ▒ ░░   
-         ▒ ░░ ░░   ░ ▒░  ░ ░░   ▒ ░    ░     ░ ░  ░░ ░▒  ░ ░░▒ ░     ░ ░ ▒  ░  ░ ▒ ▒░  ▒ ░    ░    
-         ▒ ░   ░   ░ ░     ░░   ▒ ░  ░         ░   ░  ░  ░  ░░         ░ ░   ░ ░ ░ ▒   ▒ ░  ░      
-         ░           ░      ░   ░              ░  ░      ░               ░  ░    ░ ░   ░           
-                           ░                                                                       
-
-
-                                            [+]1 Vanity changer
-                                            [+]2 invite bypass
-                                            [+]3 Vanity checker
-
-
+intro = f"""
+                            {Fore.RED}Made by REZIZT. {Fore.CYAN}Zwietracht nacheinander ausnutzen
+                                        {Fore.BLUE}https://discord.gg/XgpXMWk2bG
+{Fore.RED}                 ██▓ ███▄    █ ██▒   █▓ ██▓▄▄▄█████▓▓█████   ██████  ██▓███   ██▓     ▒█████   ██▓▄▄▄█████▓
+{Fore.RED}                ▓██▒ ██ ▀█   █▓██░   █▒▓██▒▓  ██▒ ▓▒▓█   ▀ ▒██    ▒ ▓██░  ██▒▓██▒    ▒██▒  ██▒▓██▒▓  ██▒ ▓▒
+{Fore.RED}                ▒██▒▓██  ▀█ ██▒▓██  █▒░▒██▒▒ ▓██░ ▒░▒███   ░ ▓██▄   ▓██░ ██▓▒▒██░    ▒██░  ██▒▒██▒▒ ▓██░ ▒░
+{Fore.RED}                ░██░▓██▒  ▐▌██▒ ▒██ █░░░██░░ ▓██▓ ░ ▒▓█  ▄   ▒   ██▒▒██▄█▓▒ ▒▒██░    ▒██   ██░░██░░ ▓██▓ ░ 
+{Fore.RED}                ░██░▒██░   ▓██░  ▒▀█░  ░██░  ▒██▒ ░ ░▒████▒▒██████▒▒▒██▒ ░  ░░██████▒░ ████▓▒░░██░  ▒██▒ ░ 
+{Fore.RED}                ░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░▓    ▒ ░░   ░░ ▒░ ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░ ▒░▓  ░░ ▒░▒░▒░ ░▓    ▒ ░░   
+{Fore.RED}                 ▒ ░░ ░░   ░ ▒░  ░ ░░   ▒ ░    ░     ░ ░  ░░ ░▒  ░ ░░▒ ░     ░ ░ ▒  ░  ░ ▒ ▒░  ▒ ░    ░    
+{Fore.RED}                 ▒ ░   ░   ░ ░     ░░   ▒ ░  ░         ░   ░  ░  ░  ░░         ░ ░   ░ ░ ░ ▒   ▒ ░  ░      
+{Fore.RED}                 ░           ░      ░   ░              ░  ░      ░               ░  ░    ░ ░   ░           
+{Fore.RED}                                   ░                                                                         
+{Fore.CYAN}                      ███▄,                              ,╓╖╓,
+{Fore.CYAN}                     ╙█████░▒▄'                      ▄███▒▓▓╣╣╢╗
+{Fore.CYAN}                        ▀▀█████▄,:                  ▐█████████▓▓▓▄
+{Fore.CYAN}                            ` █▓░  █╖               ████████▓▄▓▀██
+{Fore.CYAN}                              '██▄▄█▓▒╗,             ███████▀▀▀██▀
+{Fore.CYAN}                                ▀█████▓▒╢╖            ▀██▄▄░░░░sT
+{Fore.CYAN}                                  ██████▓╬╢╖          └███░░░░░─
+{Fore.CYAN}                                   ▀█████▓╣╣▒╣         ███▄µ▒░░
+{Fore.CYAN}                                     ▀████▓▓▓▓╫┐       ,██▀▀
+{Fore.CYAN}                                       ████▓▓█▓▌@▓▒▓▒▄@▓█▓µ▌\  ┌╖
+{Fore.CYAN}                                        ▐███████▓▓▓▓▓▒▄▌╢╢╣▀▒ ,░░░▒▒∩,,
+{Fore.CYAN}                                         ▀███████▓█▓▓╩▒▀█▄▒▒▒▄▒░░░|░▒░░]▒
+{Fore.CYAN}                                            ▀████████▓▓▓▒▀███Ñ▓▒░▒░░░░░▒▒▒
+{Fore.CYAN}                                             ░`▀██████▓▓▓@▒███▒▒▒▒▀▒¢g▄╢▒░
+{Fore.CYAN}                                                ▐█████▓▓▓▓╣▓▒██▌▒▒▒▒▒▒▐███▄
+{Fore.CYAN}                                               ░ ██████▓▓▓▓▌Ñ▓▓▀██▄▒╢¼████æ▄
+{Fore.CYAN}                                                 ▀███████▓███▓▓▓▓█░░░░▀▀▀▀██▄
+{Fore.CYAN}                                                ╒█████████▓██▓▓▓▓█▒▒▒▒▒▒▒▒▒░░▄
+{Fore.CYAN}                                               ,▓█╣▓██▓▓███████▓▓█▒▒▒╢╢▒▒▒▒▒▒░
+{Fore.CYAN}                                              ▄▓█▓▄▓███▓█████████████▄▒╢▓╣▓▓╜
+{Fore.CYAN}                                             ▐████▓▓██▓▓▓▓▒▒╢╣╣▒▒▒▀█▀█-└▀▀
+                                          {Fore.RED}https://exploiting-{Fore.CYAN}discord-for.fun
+                                                 {Fore.RED}http://rezizt{Fore.CYAN}.xyz             
+                                            
+                                                [{Fore.RED}>{Fore.RESET}]{Fore.CYAN}1{Fore.RESET} Vanity changer
+                                                [{Fore.RED}>{Fore.RESET}]{Fore.CYAN}2{Fore.RESET} invite bypass
+                                                [{Fore.RED}>{Fore.RESET}]{Fore.CYAN}3{Fore.RESET} Vanity checker
+                                            
 """
-
 def changer():
     # legit just gunna use my old code lol hashtag lazy
     
