@@ -5,7 +5,7 @@ Invitesploit is a 3 part program for invites, The first one is just my vanity ha
 download python and run (in the folder) pip install -r requirements.txt and run the python file
 
 # Previews
-<img src="https://i.imgur.com/ZvqhGmN.png"/>
+<img src="https://uwu.lol/i/d2aomv.png"/>
 
 # Credit
 Credit to [Fweak](https://gitdab.com/Fweak1337) For Finding Both the Exploit
