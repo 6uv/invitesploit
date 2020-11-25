@@ -9,3 +9,4 @@ download python and run (in the folder) pip install -r requirements.txt and run 
 
 # Credit
 Credit to [Fweak](https://gitdab.com/Fweak1337) For Finding Both the Exploit
+ 
